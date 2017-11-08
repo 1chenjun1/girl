@@ -1,0 +1,6 @@
+server:
+  port: 8080
+  context-path: /hello
+girl:
+  cupSize: B
+  year: 18

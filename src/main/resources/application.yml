@@ -1,0 +1,13 @@
+#用于设置这个开发环境
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://localhost:3306/test
+    data-username: yang
+    data-password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
